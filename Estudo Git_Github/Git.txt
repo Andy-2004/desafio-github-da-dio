@@ -1,0 +1,30 @@
+Git download para windows:https://git-scm.com/downloads
+
+Git é projeto de código aberto produzida em 2005, por Linus Torvalds
+foi quem criou o kernel do linux é um software de versionamento de códigos para software
+
+
+Git -> CLI Design sem muita interpretação de interface
+Comandos Windows -> CD / DIR / MKDIR / DEL / RMDIR / CLS
+Comandos Unix ->  CD / LS / MKDIR / RM -RF  / CLEAR
+
+CD -> Acessa a pasta e (..) volta a pasta anterior
+DIR -> Lista todas pasta no diretório que esta
+MKDIR -> Cria pasta no diretório
+DEL -> Deleta arquivos
+RMDIR -> Deleta tudo ou melhor toda pasta e arquivo
+CLS -> Limpa tela do terminal
+
+Objetos -> Blobs / Tree / commit
+Blobs -> é o mais basico, não guarda o nome somente \0
+
+Tree -> também chamada da de arvores, guarda o nome do arquivo, aponta para outra arvores
+e também para os blobs.
+
+Commit -> É objeto que vai juntar tudo, todas alteração que foi feita
+aponta uma arvore, para ultimo commit realizado ante dele aponta para autor .
+leva um carimbo nome, data, horário de todas alteração (Timestrap
+
+Git INIT -> Inicia um repositório 
+Git ADD -> Move arquivos, inicia ao versionamento
+Git COMMIT -> Envia todos alteração 

@@ -1,0 +1,9 @@
+Site Github : https://github.com/
+
+Github é plataforma em nuvem que armazena arquivos e codigos fontes para versionamentos,
+tem uma interface grafica amigável. Existe a parte publica que seria free e privada. 
+free qualquer pessoa tem acesso ao seus codigos e privada é paga, só usuário tem acesso
+
+O github usa Chave SSH -> É forma segura e encriptada entre duas maquinas com duas chaves, publica e privada
+Assim que entra uma vez com essa chave a maquina sempre vai ser reconhecida pelo github.
+
